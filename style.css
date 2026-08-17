@@ -51,19 +51,20 @@ body {
 }
 
 .link-item {
-    background-color: #202024;
-    color: #ffffff;
+    background-color: #2a3823;
+    color: #a3e635;
     text-decoration: none;
     padding: 16px;
     border-radius: 8px;
-    border: 1px solid #29292e;
+    border: 1px solid #4d6438;
     font-weight: bold;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease;
 }
 
 /* Efeito ao passar o mouse */
 .link-item:hover {
-    background-color: #00ff88;
-    color: #121214;
+    background-color: #a3e635;
+    color: #1a2315;
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
